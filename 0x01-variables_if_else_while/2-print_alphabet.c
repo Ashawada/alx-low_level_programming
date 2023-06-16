@@ -19,5 +19,6 @@ int main(void)
 	printf("%c", ch);
 	ch++;
 	}
+	putchar('\n');
 	return (0);
 }
