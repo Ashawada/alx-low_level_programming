@@ -16,7 +16,7 @@ int main(void)
 	ch = 'a';
 	while (ch <= 'z')
 	{
-	printf("%c", ch);
+	putchar(ch);
 	ch++;
 	}
 	putchar('\n');
