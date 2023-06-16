@@ -12,20 +12,19 @@
 int main(void)
 {
 	char ch;
-    int num;
+	int num;
 
 	ch = 'a';
-    num = 0;
-	while (num <= 9)
+	num = '0';
+	while (num <= '9')
 	{
 	putchar(num);
 	num++;
 	}
-    while(ch <= 'f');
-    ch++;
-    {
+	while (ch <= 'f')
+	{
 	putchar(ch);
-	num++;
+	ch++;
 	}
 	putchar('\n');
 	return (0);
