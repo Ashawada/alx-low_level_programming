@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* Description: 'prints all the numbers of base 16 in lowercase'
+* Description: 'prints all the numbers with , and space between'
 *
 * Return: Always 0 (Success)
 */
