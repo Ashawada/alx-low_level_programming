@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* Description: 'prints all possible different combinations of three digits.'
+* Description: 'prints all possible different combinations of two two digits.'
 *
 * Return: Always 0 (Success)
 */
