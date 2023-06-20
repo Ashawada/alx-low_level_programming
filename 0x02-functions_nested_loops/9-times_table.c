@@ -10,6 +10,7 @@ void times_table(void)
 	int i, m, p;
 
 	for (i = 0; i <= 9; i++)
+	{
 		_putchar(48);
 		for (m = 1; m <= 9; m++)
 		{
@@ -23,4 +24,5 @@ void times_table(void)
 		_putchar((p % 10) + 48);
 		}
 		_putchar('\n');
+	}
 }
