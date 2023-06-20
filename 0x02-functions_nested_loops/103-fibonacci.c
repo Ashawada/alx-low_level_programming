@@ -9,22 +9,20 @@
 
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, fibsum;
+	unsigned long count, i, j, k, sums;
 
-	float tot_sum;
+	i = sums = 0;
 
-	while (1)
+	j = 1;
+
+	for (count = 0; count < 50; count++)
 	{
-		fibsum = fib1 + fib2;
-			if (fibsum > 4000000)
-				break;
-			if ((fibsum % 2) == 0)
-			{
-				tot_sum += fibsum;
-				fib1 = fib2;
-				fib2 = fibsum;
-			}
+		k = i + j;
+		i = j;
+		j = k;
+			if (k % 2 == 0 && k < 4000000)
+			sums += k;
 	}
-	printf("%.0f\n", tot_sum);
+	printf("%lu\n", sums);
 	return (0);
 }
