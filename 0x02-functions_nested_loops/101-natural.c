@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
 *main - prints count of multiples of 3 or 5 below 1024
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int total, num
+	int sum, num;
 
 	for (num = 0; num < 1024; num++)
 	{
@@ -17,4 +17,3 @@ int main(void)
 	}
 	printf("%d\n", sum);
 	return (0);
-}
