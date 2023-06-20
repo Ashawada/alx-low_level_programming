@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 #include <stdlib.h>
 
 /**
@@ -9,21 +9,14 @@
 
 int main(void)
 {
-	int n1, n2, sum1, sum2;
+	int total, num
 
-	sum2 = 1024;
-	sum1 = 0;
-
-	for (n1 = 0; n1 < n2; n1++)
-	{
-		if ((n1 % 3 == 0) || (n1 % 5 == 0))
-			sum1 = sum1 + n1;
-		else
-			continue;
+	for (num = 0; num < 1024; num++)
+    {
+		if ((num % 3 == 0) || (num % 5 == 0))
+        	sum +=num;
 	}
-
-	printf("%d", sum1);
-	printf("\n");
+	printf("%d\n", sum);
 
 	return (0);
 }
