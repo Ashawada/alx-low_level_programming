@@ -1,1 +1,1 @@
-C Programing , Hello World!
+Hello World, First day in C programing
