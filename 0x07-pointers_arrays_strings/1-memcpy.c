@@ -4,7 +4,7 @@
 * *_memcpy - function that copies memory area.
 * @dest: memory area to be filled
 * @scr: char to be copied
-* @n: number of times to copy b
+* @n: number of times to copy scr
 *
 * Return: pointer to the memory area dest
 */
